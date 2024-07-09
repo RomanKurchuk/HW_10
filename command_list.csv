@@ -1,0 +1,39 @@
+    1  clear
+    2  cd repository
+    3  git config --global user.name "Roman Kurchuk"
+    4  git config --global user.email "kurchukroman@gmail.com"
+    5  git clone https://github.com/RomanKurchuk/HW_10
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  git status text_ignore.txt
+    9  git status\
+   10  git status
+   11  git status
+   12  git status
+   13  clear
+   14  git add
+   15  git status
+   16  git add .
+   17  git status
+   18  git status
+   19  git add .
+   20  git commit -m
+   21  git commit -m "Ended"
+   22  git status
+   23  touch main_test.txt
+   24  git add .
+   25  git commit -m "Ended"
+   26  git status
+   27  git checkout -b develop
+   28  touch develop_text.txt
+   29  git add .
+   30  git commit -m "Ended"
+   31  git status
+   32  git add .
+   33  git commit -m "Ended"
+   34  git checkout main
+   35  gir merge develop
+   36  git merge develop
+   37  git status
+   38  git log
+   39  history > command_list.csv
